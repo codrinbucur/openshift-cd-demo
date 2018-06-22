@@ -386,7 +386,7 @@ objects:
               cat /tmp/curl.log
               exit 255
             fi
-          image: openshift3/ose:v3.9
+          image: registry.access.redhat.com/openshift3/ose:v3.9
           name: cicd-demo-installer-job
           resources: {}
           terminationMessagePath: /dev/termination-log
